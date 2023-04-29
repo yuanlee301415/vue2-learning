@@ -1,7 +1,9 @@
 # vue2-learning
-
+> Vue2 学习
+> 
 ## Project setup
 ```
+vue create `Manually select features`(预设文件：.vuerc)
 npm install
 ```
 
