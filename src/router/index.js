@@ -21,6 +21,23 @@ export const routes = [
       },
     ],
   },
+
+  {
+    // 图片动态URL
+    path: "/img-dynamic-url",
+    component: Layout,
+    redirect: "/img-dynamic-url",
+    children: [
+      {
+        path: "",
+        name: "img-dynamic-url",
+        meta: {
+          title: "图片动态URL",
+        },
+        component: () => import("@/views/img-dynamic-url"),
+      },
+    ],
+  },
 ];
 
 export default new Router({
